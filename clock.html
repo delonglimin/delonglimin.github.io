@@ -520,7 +520,7 @@
   var h = d.getHours();
   var m = d.getMinutes();
   var s = d.getSeconds();
-  var hDeg = h % 12 * 30;
+  var hDeg = h % 12 * 30 + (m/60)*30;
   var mDeg = m * 6;
   var sDeg = s * 6;
 
